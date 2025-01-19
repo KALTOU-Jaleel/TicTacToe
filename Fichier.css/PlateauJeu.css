@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+.plateau1 {
+    position: relative;
+    width: 70%;
+    height: 5px;
+    top: 20%;
+    background-color: white;
+}
+
+.plateau1::before {
+    content: '';
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(90deg);
+    width: 70%;
+    height: 5px;
+    background-color: white;
+}
+.plateau2 {
+    position: relative;
+    width: 500px;
+    height: 5px;
+    background-color: white;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+.tic-tac-toe {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+    background-color: white;
+    padding: 5px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell:hover {
+    background-color: gray;
+}
