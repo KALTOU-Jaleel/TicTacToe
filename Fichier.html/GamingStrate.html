@@ -3,13 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Croix du jeu Tic tac toe</title>
+    <title>Page principale du jeu Tic tac toe</title>
 
     <link rel="stylesheet" href="../Fichier.css/GamingStrate.css">
     
 </head>
 <body>
-   
+   <header class="Menu"> 
 
+    <iframe src="../Fichier.html/StartGame.html" class= "StartTheGame" > </iframe>
+    <iframe src="../Fichier.html/Croix.html" class= "CroixJeu" onclick="AddCroix()"> </iframe>
+    <iframe src="../Fichier.html/Rond.html" class= "RondJeu" onclick="AddCircle()"> </iframe>
+   </header>
+
+    <!-- 
+    <iframe src="../Fichier.html/PlateauJeu.html" class="PlateauJeu"> </iframe>
+-->
+<div class="tic-tac-toe">
+    <div class="cell">
+        
+    </div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+</div>
+
+<footer> 
+
+
+</footer>
+<div class="scriptJs"> 
+<script src="../Fichier.js/GamingStrate.js"></script>
+
+</div>
 </body>
+
 </html>

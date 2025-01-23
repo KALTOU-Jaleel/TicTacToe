@@ -26,3 +26,6 @@ body {
     background-color: black;
     border-radius: 50%;
 }
+.circle:hover {
+    background-color: gray;
+}

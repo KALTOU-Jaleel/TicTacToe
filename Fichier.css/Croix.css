@@ -25,3 +25,9 @@ body {
     height: 20px;
     background-color: white;
 }
+.cross:hover {
+    background-color: gray;
+}
+.cross::before:hover {
+    background-color: gray;
+}

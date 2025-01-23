@@ -5,4 +5,54 @@ body {
     align-items: center;
     height: 100vh;
     background-color: black;
+    flex-direction: column; /* Organise le header et le reste verticalement */
+}
+
+header.Menu {
+    position: fixed; /* Fixé en haut de la page */
+    top: 0;
+    width: 100%; /* Prend toute la largeur */
+    background-color: #000000;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-around; /* Espacement entre les iframes */
+    align-items: center; /* Centrage vertical des iframes */
+    padding: 10px; /* Espacement interne */
+    border-radius: 10px;
+    height: 20%; /* Hauteur du header */
+}
+
+header.Menu iframe {
+    border: none; /* Supprime les bordures */
+    border-radius: 5px; 
+    box-shadow: none;
+}
+
+iframe.PlateauJeu {
+    margin-top: 20%; /* Évite que le contenu principal soit caché sous le header */
+    width: 90%;
+    height: 80%; /* Remplit l'espace restant de la page */
+    border: none; /* Supprime les bordures */
+}
+
+.tic-tac-toe {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+    background-color: white;
+    padding: 5px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell:hover {
+    background-color: gray;
 }
