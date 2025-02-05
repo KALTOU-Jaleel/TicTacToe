@@ -46,7 +46,7 @@ function addSymbol(cellIndex) {
 
         if (checkWinner(currentPlayer)) {
             winnerMessage.value = `Le joueur ${currentPlayer} a gagné !`;
-            setTimeout(resetGame, 5000);
+            setTimeout(resetGame, 8000);
             return; // Si un joueur gagne, on arrête le jeu ici
         }
 
