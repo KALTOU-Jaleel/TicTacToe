@@ -13,6 +13,7 @@ body {
     height: 20px;
     transform: rotate(45deg);
     background-color: white;
+    transition: background-color 0.3s; /* Ajoute une transition pour un effet fluide */
 }
 
 .cross::before {
@@ -24,10 +25,10 @@ body {
     width: 100px;
     height: 20px;
     background-color: white;
+    transition: background-color 0.3s; /* Transition pour le pseudo-élément */
 }
-.cross:hover {
-    background-color: gray;
-}
-.cross::before:hover {
+
+.cross:hover, 
+.cross:hover::before {
     background-color: gray;
 }
