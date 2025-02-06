@@ -6,8 +6,10 @@ Ce projet est un jeu de Tic-Tac-Toe jouable directement dans un navigateur web.
 ![Début de partie](./Images/Capture%20d’écran%202025-02-05%20065421.png)
 
 Les joueurs peuvent choisir X ou O à chaque tour et jouer en alternance jusqu'à ce qu'un gagnant soit déterminé ou qu'une égalité soit déclarée.
-![Partie en cours](./Images/Capture%20d’écran%202025-02-05%20065420.png)
 
+
+
+Ayez du fun avec mon petit jeu
 ## Fonctionnalités
 
 - Choix manuel entre X et O à chaque tour
@@ -20,7 +22,6 @@ Les joueurs peuvent choisir X ou O à chaque tour et jouer en alternance jusqu'�
 
 - Redémarrage automatique à la fin d'une partie
 
-- Interface avec des boutons interactifs et un affichage du résultat
 
 ## Technologies utilisées
 
@@ -38,13 +39,15 @@ Les joueurs peuvent choisir X ou O à chaque tour et jouer en alternance jusqu'�
 
 - Le jeu alterne les tours automatiquement après chaque coup.
 
+![Partie en cours d'exécution](./Images/Capture%20d’écran%202025-02-05%20101240.png)
+
 La partie se termine lorsqu'un joueur aligne trois symboles ou si toutes les cases sont remplies sans gagnant.
 
 À la fin, le jeu redémarre automatiquement.
 
 ## Installation et exécution
 
-Aucune installation requise. Il suffit d'ouvrir le fichier GamingStrate.html dans un navigateur web pour jouer.
+Aucune installation requise. Il suffit d'ouvrir le fichier GamingStrate.html situé dans le dosier Html dans un navigateur web pour jouer.
 
 ## Améliorations possibles
 
@@ -56,4 +59,4 @@ Aucune installation requise. Il suffit d'ouvrir le fichier GamingStrate.html dan
 
 ## Auteur
 
-Développé par Jaleel.
+Développé par KALTOU Jaleel.
